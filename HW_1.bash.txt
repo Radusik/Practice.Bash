@@ -34,11 +34,10 @@
 12) Выйти из папки на уровень выше - cd ..
 —
 13) переместить любые 2 файла, которые вы создали, в любую другую папку.
- mv folder1/file1.txt folder2
- mv folder1/file2.txt folder3
+mv folder1/{file1.txt,file2.txt} folder2/
 
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
-cp folder1/{1.json 2.json} folder2
+cp folder1/{1.json,2.json} folder3/
 
 
 15) Найти файл по имени
@@ -81,6 +80,5 @@ touch file1.txt file2.txt file3.txt 1.json 2.json
 mkdir folder4 folder5 folder6
 ls -la
 cd ..
-mv folder1/file1.txt folder2
-mv folder1/file2.txt folder3
+mv folder1/{file1.txt,file2.txt} folder2/
 chmod +x ./myscript.sh
